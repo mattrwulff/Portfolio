@@ -1,0 +1,38 @@
+html{
+    background-color: bisque;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-auto-columns: 100px;
+    background-color: rgb(56, 54, 54);
+    
+    }
+.box {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+    } 
+.nav{
+    grid-column: 1 / 3;
+    grid-row: 1;
+    background-color: aqua;
+    
+    height: 100%;
+}
+.header{
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+.gallary{
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+.about{
+    grid-column: 1 / 3;
+    grid-row: 4;
+}
+.footer{
+    grid-column: 1 / 3;
+    grid-row: 5;
+}
