@@ -15,12 +15,13 @@ html body{
     font-size: 250%;
     padding: 100px
     } 
+
 .nav2{
     position: fixed;
     height: 30px;
     background: white;
-    width: 100%;
-    
+    width: 100%; 
+    box-shadow: 0px 5px 10px rgb(255, 255, 255);
 }
 .nav2 a{
     float: right;
@@ -30,13 +31,16 @@ html body{
     padding-bottom: 6px;
     text-decoration: none;
     color: black;
+    
     margin-top:auto;
     margin-bottom: auto;
-    font-size: 110%;
+   font-size: 110%;
+    
 }
 .nav2 a:hover{
     background-color: rgb(57,117,153);
-    color:black
+    color:white;
+    box-shadow: 0px 5px 10px rgb(57,117,153);
 }
 .nav{
     display:flex;
@@ -50,7 +54,6 @@ html body{
     justify-content: center;
     align-content: center;
     border-bottom: 1px solid black;
-    
 }
 
 
@@ -60,13 +63,28 @@ html body{
     color: white;
     text-shadow:5px 5px 5px rgb(160, 183, 233);
 }
-
-.header{
+/* section for projects */
+.project{
     grid-column: 1 / 4;
     grid-row: 2;
+    display: block;
     background-color: rgb(160, 183, 233);
     text-align: center;
 }
+.project h1{
+    font-size: 200%;
+    color:white;
+}
+.projlink{
+    padding: 3px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: transparent 2px solid;
+}
+.projlink:hover{
+    border: 2px solid black;
+}
+
 .gallary{
     grid-column: 1 / 4;
     grid-row: 3;
