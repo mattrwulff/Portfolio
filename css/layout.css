@@ -22,6 +22,7 @@ html body{
     background: white;
     width: 100%; 
     box-shadow: 0px 5px 10px rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
 }
 .nav2 a{
     float: right;
@@ -70,6 +71,7 @@ html body{
     display: block;
     background-color: rgb(160, 183, 233);
     text-align: center;
+    font-family: 'Righteous', cursive;
 }
 .project h1{
     font-size: 200%;
@@ -80,9 +82,11 @@ html body{
     margin-left: 10px;
     margin-right: 10px;
     border: transparent 2px solid;
+    transition: .3s;
 }
 .projlink:hover{
     border: 2px solid black;
+    transition: .3s;
 }
 
 .gallary{
