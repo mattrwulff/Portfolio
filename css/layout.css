@@ -2,12 +2,13 @@ html body{
     background-color:white;
 }
 .container {
+    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-auto-columns: 100px;
     background-color: rgb(56, 54, 54);
     
-    }
+}
 .box {
     
     color: black;
@@ -19,11 +20,12 @@ html body{
 .nav2{
     position: fixed;
     height: 30px;
-    background: white;
+    background: rgb(255, 255, 255);
     width: 100%; 
     box-shadow: 0px 5px 10px rgb(255, 255, 255);
     font-family: 'Staatliches', cursive;
     z-index: 1000;
+    
 }
 .nav2 a{
     float: right;
@@ -48,7 +50,7 @@ html body{
     display:flex;
     grid-column: 1 / 4;
     grid-row: 1;
-    
+    font-family: 'Odibee Sans', cursive;
     background-image: url("../images/mountain.jpg");
     background-size: cover;
     height: 100vh;
@@ -118,6 +120,9 @@ html body{
     background-color: rgb(160, 183, 233);
     text-align: center;
 }
+
+/*scrollbar*/
+
 /* width */
 ::-webkit-scrollbar {
     width: 20px;
