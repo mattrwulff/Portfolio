@@ -145,3 +145,44 @@ html body{
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(107, 123, 156); 
   }
+  /*HOVER FOR TEXT*/
+
+ 
+/* Fill Text Effect On Hover - Css3 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #ccc;
+    font-size: 5em;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Fill Text Effect On Hover - Css3 */
+h1.effect-1 {
+  transform: translate(-50%, -50%);
+}
+  h1.effect:before {
+    top: 0;
+    left: 0;
+    width: 0;
+    color: #262626;
+    overflow: hidden;
+    
+    content: attr(data-text);
+    transition: all 0.9s;
+  }
+  
+  h1.effect:hover {
+    
+    
+      width: 100%;
+    
+  
+}
+
