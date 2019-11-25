@@ -13,10 +13,10 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: rgb(78, 78, 78);
+  background-color: rgb(255, 255, 255);
   align-content: center;
   width: 100%;
-  color: white;
+  color: rgb(124, 143, 184);
   padding: 12px 20px;
   border: none;
   
@@ -24,7 +24,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #303030;
+  background-color:  rgb(124, 143, 184);
+  color: white;
 }
 .contactword{
     font-size: 200%;
@@ -32,7 +33,7 @@ input[type=submit]:hover {
 .container {
 position: relative;
 top: 30px;
-background-color: #f2f2f2;
+background-color:  rgb(160, 183, 233);
 padding: 20px;
 font-family: 'Odibee Sans', cursive;
 }

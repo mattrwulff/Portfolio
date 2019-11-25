@@ -71,7 +71,7 @@ html body{
     padding-top: 90px;
     font-size: 250%;
     color: white;
-    text-shadow:5px 5px 5px rgb(160, 183, 233);
+    text-shadow:5px 5px 0px rgb(253, 80, 0);
 }
 /* section for projects */
 .project{
@@ -145,6 +145,11 @@ html body{
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(107, 123, 156); 
   }
+
+
+
+
+  
   /*HOVER FOR TEXT*/
 
  
