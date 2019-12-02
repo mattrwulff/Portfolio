@@ -16,7 +16,7 @@ html body{
     font-size: 250%;
     padding: 100px;
     position:relative;
-    top:50%;
+   
     } 
 
 .nav2{
@@ -44,27 +44,177 @@ html body{
     
 }
 .nav2 a:hover{
-    background-color: rgb(57,117,153);
+    background-color: rgb(99, 99, 99);
     color:white;
-    box-shadow: 0px 5px 10px rgb(57,117,153);
+    box-shadow: 0px 5px 10px rgb(99, 99, 99);
 }
 .nav{
     display:flex;
     grid-column: 1 / 4;
     grid-row: 1;
     font-family: 'Odibee Sans', cursive;
-    background: white;
+    background: rgb(46, 46, 46);
     background-size: cover;
     
     height: 100vh;
     font-size: 300%;
     justify-content: center;
-    align-content: center;
+    
     border-bottom: 1px solid black;
-    text-align:center;
+    
     position: relative;
-    top:50%;
+    align-items: center;
 }
+.nav p{
+    font-size: 400%;
+    color: white;
+    text-shadow: 5px 5px 0px rgb(253, 80, 0);
+}
+
+/*animation*/
+
+.css-typing p {
+    border-right: .1em solid rgb(253, 80, 0) ;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 400%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    
+  }
+  .css-typing p{
+    width: 3.1em;
+    -webkit-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .css-typing p{
+    
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .css-typing p{
+    
+    opacity: 0;
+    -webkit-animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+    animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .02em solid rgb(253, 80, 0);
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .02em solid rgb(253, 80, 0);
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .02em solid rgb(253, 80, 0);
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .02em solid rgb(253, 80, 0);
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+
+
+
+
+
+
 .nav > img{
     position: absolute;
     display: block;
@@ -84,13 +234,24 @@ html body{
     grid-column: 1 / 4;
     grid-row: 2;
     display: block;
-    background-color: rgb(160, 183, 233);
+    background-color: rgb(92, 92, 92);
     text-align: center;
     font-family: 'Righteous', cursive;
+    height: 100vh;
+    padding:0px;
 }
-.project h1{
+.project h2{
     font-size: 200%;
     color:white;
+    text-shadow: 5px 5px 0px rgb(253, 80, 0);
+    padding-top: 100px;
+}
+
+
+
+.project p {
+    color: white;
+    font-size: 150%;
 }
 .projlink{
     padding: 3px;
@@ -104,26 +265,34 @@ html body{
     transition: .3s;
 }
 
-.gallary{
+.res{
     grid-column: 1 / 4;
     grid-row: 3;
-    background-color: rgb(160, 183, 233);
+    background-color: rgb(155, 155, 155);
     text-align: center;
+    font-family: 'Righteous', cursive;
+    height: 100vh;
 }
-.table1{
-    margin-left: auto;
-    margin-right: auto
+.res h2{
+    padding-top: 100px;
+    font-size: 600%;
+    color:white;
+    text-shadow: 5px 5px 0px rgb(253, 80, 0);
+}
+.resume{
+    height: 1000px;
+    background-color: rgb(155, 155, 155);
 }
 .about{
     grid-column: 1 / 4;
     grid-row: 4;
-    background-color: rgb(160, 183, 233);
+    background-color: rgb(199, 199, 199);
     text-align: center;
 }
 .footer{
     grid-column: 1 / 4;
     grid-row: 5;
-    background-color: rgb(160, 183, 233);
+    background-color: rgb(87, 87, 87);
     text-align: center;
 }
 
@@ -143,11 +312,11 @@ html body{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgb(132, 151, 194); 
+    background: rgb(150, 150, 150); 
     border: 1px solid black;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: rgb(107, 123, 156); 
+    background:rgb(82, 82, 82) ; 
   }

@@ -16,7 +16,7 @@ input[type=submit] {
   background-color: rgb(255, 255, 255);
   align-content: center;
   width: 100%;
-  color: rgb(124, 143, 184);
+  color: rgb(0, 0, 0);
   padding: 12px 20px;
   border: none;
   
@@ -24,7 +24,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color:  rgb(124, 143, 184);
+  background-color:  rgb(87, 87, 87);
   color: white;
 }
 .contactword{
@@ -33,7 +33,7 @@ input[type=submit]:hover {
 .container {
 position: relative;
 top: 30px;
-background-color:  rgb(160, 183, 233);
+background-color:  rgb(126, 126, 126);
 padding: 20px;
 font-family: 'Odibee Sans', cursive;
 }
@@ -64,7 +64,7 @@ font-family: 'Odibee Sans', cursive;
     
 }
 .nav2 a:hover{
-    background-color: rgb(57,117,153);
+    background-color: rgb(99, 99, 99);
     color:white;
-    box-shadow: 0px 5px 10px rgb(57,117,153);
+    box-shadow: 0px 5px 10px  rgb(99, 99, 99);
 }
