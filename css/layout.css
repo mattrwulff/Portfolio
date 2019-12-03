@@ -42,9 +42,9 @@ html body{
     
 }
 .nav2 a:hover{
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(20, 21, 24);
     color:white;
-    box-shadow: 0px 5px 10px rgb(99, 99, 99);
+    box-shadow: 0px 5px 10px rgb(20, 21, 24);
 }
 .nav{
     display:flex;
@@ -57,7 +57,8 @@ html body{
     font-size: 300%;
     justify-content: center;
     align-content: center;
-    border-bottom: 1px solid black;
+   
+    box-shadow:  0px -60px 40px rgb(20, 21, 24) inset;
 }
 .nav > img{
     position: absolute;
@@ -78,13 +79,15 @@ html body{
     grid-column: 1 / 4;
     grid-row: 2;
     display: block;
-    background-color: rgb(182, 182, 182);
+    
+    background-color: rgb(20, 21, 24) ;
     text-align: center;
     font-family: 'Righteous', cursive;
 }
 .project h1{
     font-size: 200%;
     color:white;
+    text-shadow:5px 5px 0px rgb(253, 80, 0);
 }
 .projlink{
     padding: 3px;
@@ -94,7 +97,7 @@ html body{
     transition: .3s;
 }
 .projlink:hover{
-    border: 2px solid black;
+    border: 2px solid rgb(253, 80, 0);
     transition: .3s;
 }
 
