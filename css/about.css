@@ -213,7 +213,9 @@ html body{
 
 
 
-
+.downarrow:hover{
+  filter: opacity(0.7)
+}
 
 .nav > img{
     position: absolute;
