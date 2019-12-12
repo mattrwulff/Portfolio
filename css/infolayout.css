@@ -64,7 +64,7 @@ font-family: 'Odibee Sans', cursive;
     
 }
 .nav2 a:hover{
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(20, 21, 24);
     color:white;
-    box-shadow: 0px 5px 10px  rgb(99, 99, 99);
+    box-shadow: 0px 5px 10px  rgb(20, 21, 24);
 }

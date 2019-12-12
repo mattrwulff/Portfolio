@@ -44,16 +44,16 @@ html body{
     
 }
 .nav2 a:hover{
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(20, 21, 24);
     color:white;
-    box-shadow: 0px 5px 10px rgb(99, 99, 99);
+    box-shadow: 0px 5px 10px rgb(20, 21, 24);
 }
 .nav{
     display:flex;
     grid-column: 1 / 4;
     grid-row: 1;
     font-family: 'Odibee Sans', cursive;
-    background: rgb(46, 46, 46);
+    background: rgb(20, 21, 24);
     background-size: cover;
     
     height: 100vh;
@@ -248,7 +248,6 @@ html body{
 }
 
 
-
 .project p {
     color: white;
     font-size: 150%;
@@ -286,8 +285,39 @@ html body{
 .about{
     grid-column: 1 / 4;
     grid-row: 4;
-    background-color: rgb(199, 199, 199);
+    height: 100vh;
     text-align: center;
+}
+.about .slider{
+  width: 620px;
+  height: 620px;
+  background: violet;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  box-shadow: 5px 0px 5px rgb(253, 80, 0), -5px 0px 5px rgb(253, 80, 0);
+  animation: slide 20s infinite;
+}
+
+@keyframes slide{
+  25%{
+    background: blue;
+    background-size: cover;
+  }
+  50%{
+    background: red;
+    background-size: cover;
+  }
+  75%{
+    background: green;
+    background-size: cover;
+  }
+  100%{
+    background: pink;
+    background-size: cover;
+  }
+  
 }
 .footer{
     grid-column: 1 / 4;
