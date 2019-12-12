@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 body {font-family: Arial, Helvetica, sans-serif;}
+=======
+body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(20, 21, 24);}
+>>>>>>> master
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
+<<<<<<< HEAD
   border: 1px solid #ccc;
   
+=======
+  border: 1px solid rgb(253, 80, 0);
+  background-color: rgb(39, 41, 48);
+  color:white;
+>>>>>>> master
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
@@ -13,10 +23,17 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
+<<<<<<< HEAD
   background-color: rgb(255, 255, 255);
   align-content: center;
   width: 100%;
   color: rgb(0, 0, 0);
+=======
+  background-color: rgb(39, 41, 48);
+  align-content: center;
+  width: 100%;
+  color: white;
+>>>>>>> master
   padding: 12px 20px;
   border: none;
   
@@ -24,7 +41,11 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
+<<<<<<< HEAD
   background-color:  rgb(87, 87, 87);
+=======
+  background-color: rgb(34, 36, 41);
+>>>>>>> master
   color: white;
 }
 .contactword{
@@ -33,16 +54,29 @@ input[type=submit]:hover {
 .container {
 position: relative;
 top: 30px;
+<<<<<<< HEAD
 background-color:  rgb(126, 126, 126);
 padding: 20px;
 font-family: 'Odibee Sans', cursive;
+=======
+background-color: rgb(20, 21, 24);
+color: white;
+text-shadow: 2px 2px 0px rgb(253, 80, 0);
+padding: 20px;
+font-family: 'Odibee Sans', cursive;
+height: 100%;
+>>>>>>> master
 }
 
 
 .nav2{
     position: fixed;
     height: 30px;
+<<<<<<< HEAD
     background: rgb(255, 255, 255);
+=======
+    background-color: white;
+>>>>>>> master
     width: 100%; 
     box-shadow: 0px 5px 10px rgb(255, 255, 255);
     font-family: 'Staatliches', cursive;
@@ -64,7 +98,11 @@ font-family: 'Odibee Sans', cursive;
     
 }
 .nav2 a:hover{
-    background-color: rgb(99, 99, 99);
+    background-color: rgb(20, 21, 24);
     color:white;
-    box-shadow: 0px 5px 10px  rgb(99, 99, 99);
+    box-shadow: 0px 5px 10px  rgb(20, 21, 24);
+<<<<<<< HEAD
+=======
+    text-shadow:1px 1px 0px rgb(253, 80, 0);
+>>>>>>> master
 }
