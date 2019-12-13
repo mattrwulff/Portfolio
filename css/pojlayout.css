@@ -1,3 +1,5 @@
+/*laptop*/
+@media only screen and (min-width: 1200px) {
 html body{
     background-color:white;
 }
@@ -193,5 +195,406 @@ h1.effect-1 {
       width: 100%;
     
   
+}
+}
+
+/*tablet*/
+@media only screen and (max-width: 1199px) and (min-width: 800px) {
+    html body{
+        background-color:white;
+    }
+    .container {
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-auto-columns: 100px;
+        background-color: rgb(56, 54, 54);
+        
+    }
+    .box {
+        
+        color: black;
+        border-bottom: 1px solid black;
+        font-size: 250%;
+        padding: 100px
+        } 
+    
+    .nav2{
+        position: fixed;
+        height: 30px;
+        background: rgb(255, 255, 255);
+        width: 100%; 
+        box-shadow: 0px 5px 10px rgb(255, 255, 255);
+        font-family: 'Staatliches', cursive;
+        z-index: 1000;
+        
+    }
+    .nav2 a{
+        float: right;
+        padding-left:15px ;
+        padding-right: 15px;
+        padding-top: 4px;
+        padding-bottom: 6px;
+        text-decoration: none;
+        color: black;
+        
+        margin-top:auto;
+        margin-bottom: auto;
+       font-size: 110%;
+        
+    }
+    .nav2 a:hover{
+        background-color: rgb(20, 21, 24);
+        color:white;
+        box-shadow: 0px 5px 10px rgb(20, 21, 24);
+        text-shadow:1px 1px 0px rgb(253, 80, 0);
+    }
+    .nav{
+        display:flex;
+        grid-column: 1 / 4;
+        grid-row: 1;
+        font-family: 'Odibee Sans', cursive;
+        background-image: url("../images/mountain.jpg");
+        background-size: cover;
+        height: 100vh;
+        font-size: 300%;
+        justify-content: center;
+        align-content: center;
+       
+        box-shadow:  0px -60px 40px rgb(20, 21, 24) inset;
+    }
+    .nav > img{
+        position: absolute;
+        display: block;
+        top: 230px;
+        width:300px;
+         height:500px;
+    }
+    
+    .nav h1{
+        padding-top: 90px;
+        font-size: 250%;
+        color: white;
+        text-shadow:5px 5px 0px rgb(253, 80, 0);
+    }
+    /* section for projects */
+    .project{
+        grid-column: 1 / 4;
+        grid-row: 2;
+        display: block;
+        
+        background-color: rgb(20, 21, 24) ;
+        text-align: center;
+        font-family: 'Righteous', cursive;
+    }
+    .project h1{
+        font-size: 200%;
+        color:white;
+        text-shadow:5px 5px 0px rgb(253, 80, 0);
+    }
+    .projlink{
+        padding: 3px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: transparent 2px solid;
+        transition: .3s;
+    }
+    .projlink:hover{
+        border: 2px solid rgb(253, 80, 0);
+        transition: .3s;
+    }
+    
+    .gallary{
+        grid-column: 1 / 4;
+        grid-row: 3;
+        background-color: rgb(122, 122, 122);
+        text-align: center;
+    }
+    .table1{
+        margin-left: auto;
+        margin-right: auto
+    }
+    .about{
+        grid-column: 1 / 4;
+        grid-row: 4;
+        background-color: rgb(216, 216, 216);
+        text-align: center;
+    }
+    .footer{
+        grid-column: 1 / 4;
+        grid-row: 5;
+        background-color: rgb(105, 105, 105);
+        text-align: center;
+    }
+    
+    /*scrollbar*/
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 20px;
+        background-color: white;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(150, 150, 150); 
+        border: 1px solid black;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(82, 82, 82); 
+      }
+    
+    
+    
+    
+      
+      /*HOVER FOR TEXT*/
+    
+     
+    /* Fill Text Effect On Hover - Css3 */
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        margin: 0;
+        padding: 0;
+        color: #ccc;
+        font-size: 5em;
+        overflow: hidden;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    /* Fill Text Effect On Hover - Css3 */
+    h1.effect-1 {
+      transform: translate(-50%, -50%);
+    }
+      h1.effect:before {
+        top: 0;
+        left: 0;
+        width: 0;
+        color: #262626;
+        overflow: hidden;
+        
+        content: attr(data-text);
+        transition: all 0.9s;
+      }
+      
+      h1.effect:hover {
+        
+        
+          width: 100%;
+        
+      
+    }
+}
+
+/*phone*/
+@media only screen and (max-width: 799px) {
+    html body{
+        background-color:white;
+    }
+    .container {
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-auto-columns: 100px;
+        background-color: rgb(56, 54, 54);
+        
+    }
+    .box {
+        
+        color: black;
+        border-bottom: 1px solid black;
+        font-size: 250%;
+        padding: 100px
+        } 
+    
+    .nav2{
+        position: fixed;
+        height: 30px;
+        background: rgb(255, 255, 255);
+        width: 100%; 
+        box-shadow: 0px 5px 10px rgb(255, 255, 255);
+        font-family: 'Staatliches', cursive;
+        z-index: 1000;
+        
+    }
+    .nav2 a{
+        float: right;
+        padding-left:15px ;
+        padding-right: 15px;
+        padding-top: 4px;
+        padding-bottom: 6px;
+        text-decoration: none;
+        color: black;
+        
+        margin-top:auto;
+        margin-bottom: auto;
+       font-size: 110%;
+        
+    }
+    .nav2 a:hover{
+        background-color: rgb(20, 21, 24);
+        color:white;
+        box-shadow: 0px 5px 10px rgb(20, 21, 24);
+        text-shadow:1px 1px 0px rgb(253, 80, 0);
+    }
+    .nav{
+        display:flex;
+        grid-column: 1 / 4;
+        grid-row: 1;
+        font-family: 'Odibee Sans', cursive;
+        background-image: url("../images/mountain.jpg");
+        background-size: cover;
+        height: 100vh;
+        font-size: 300%;
+        justify-content: center;
+        align-content: center;
+       
+        box-shadow:  0px -60px 40px rgb(20, 21, 24) inset;
+    }
+    .nav > img{
+        position: absolute;
+        display: block;
+        top: 230px;
+        width:300px;
+         height:500px;
+    }
+    
+    .nav h1{
+        padding-top: 90px;
+        font-size: 250%;
+        color: white;
+        text-shadow:5px 5px 0px rgb(253, 80, 0);
+    }
+    /* section for projects */
+    .project{
+        grid-column: 1 / 4;
+        grid-row: 2;
+        display: block;
+        
+        background-color: rgb(20, 21, 24) ;
+        text-align: center;
+        font-family: 'Righteous', cursive;
+    }
+    .project h1{
+        font-size: 200%;
+        color:white;
+        text-shadow:5px 5px 0px rgb(253, 80, 0);
+    }
+    .projlink{
+        padding: 3px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: transparent 2px solid;
+        transition: .3s;
+    }
+    .projlink:hover{
+        border: 2px solid rgb(253, 80, 0);
+        transition: .3s;
+    }
+    
+    .gallary{
+        grid-column: 1 / 4;
+        grid-row: 3;
+        background-color: rgb(122, 122, 122);
+        text-align: center;
+    }
+    .table1{
+        margin-left: auto;
+        margin-right: auto
+    }
+    .about{
+        grid-column: 1 / 4;
+        grid-row: 4;
+        background-color: rgb(216, 216, 216);
+        text-align: center;
+    }
+    .footer{
+        grid-column: 1 / 4;
+        grid-row: 5;
+        background-color: rgb(105, 105, 105);
+        text-align: center;
+    }
+    
+    /*scrollbar*/
+    
+    /* width */
+    ::-webkit-scrollbar {
+        width: 20px;
+        background-color: white;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: rgb(150, 150, 150); 
+        border: 1px solid black;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(82, 82, 82); 
+      }
+    
+    
+    
+    
+      
+      /*HOVER FOR TEXT*/
+    
+     
+    /* Fill Text Effect On Hover - Css3 */
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    h1 {
+        margin: 0;
+        padding: 0;
+        color: #ccc;
+        font-size: 5em;
+        overflow: hidden;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    /* Fill Text Effect On Hover - Css3 */
+    h1.effect-1 {
+      transform: translate(-50%, -50%);
+    }
+      h1.effect:before {
+        top: 0;
+        left: 0;
+        width: 0;
+        color: #262626;
+        overflow: hidden;
+        
+        content: attr(data-text);
+        transition: all 0.9s;
+      }
+      
+      h1.effect:hover {
+        
+        
+          width: 100%;
+        
+      
+    }
 }
 

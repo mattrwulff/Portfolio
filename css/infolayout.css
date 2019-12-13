@@ -1,3 +1,5 @@
+/*laptop*/
+@media only screen and (min-width: 1200px) {
 body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(20, 21, 24);}
 * {box-sizing: border-box;}
 
@@ -73,3 +75,163 @@ height: 100%;
     box-shadow: 0px 5px 10px  rgb(20, 21, 24);
     text-shadow:1px 1px 0px rgb(253, 80, 0);
 }
+}
+
+/*tablet*/
+@media only screen and (max-width: 1199px) and (min-width: 800px) {
+  body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(20, 21, 24);}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(253, 80, 0);
+  background-color: rgb(39, 41, 48);
+  color:white;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(39, 41, 48);
+  align-content: center;
+  width: 100%;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(34, 36, 41);
+  color: white;
+}
+.contactword{
+    font-size: 200%;
+}
+.container {
+position: relative;
+top: 30px;
+background-color: rgb(20, 21, 24);
+color: white;
+text-shadow: 2px 2px 0px rgb(253, 80, 0);
+padding: 20px;
+font-family: 'Odibee Sans', cursive;
+height: 100%;
+}
+
+
+.nav2{
+    position: fixed;
+    height: 30px;
+    background-color: white;
+    width: 100%; 
+    box-shadow: 0px 5px 10px rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+    z-index: 1000;
+    
+}
+.nav2 a{
+    float: right;
+    padding-left:15px ;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    color: black;
+    
+    margin-top:auto;
+    margin-bottom: auto;
+   font-size: 110%;
+    
+}
+.nav2 a:hover{
+    background-color: rgb(20, 21, 24);
+    color:white;
+    box-shadow: 0px 5px 10px  rgb(20, 21, 24);
+    text-shadow:1px 1px 0px rgb(253, 80, 0);
+}
+}
+/*phone*/
+@media only screen and (max-width: 799px) {
+  body {font-family: Arial, Helvetica, sans-serif; background-color: rgb(20, 21, 24);}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(253, 80, 0);
+  background-color: rgb(39, 41, 48);
+  color:white;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(39, 41, 48);
+  align-content: center;
+  width: 100%;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(34, 36, 41);
+  color: white;
+}
+.contactword{
+    font-size: 200%;
+}
+.container {
+position: relative;
+top: 30px;
+background-color: rgb(20, 21, 24);
+color: white;
+text-shadow: 2px 2px 0px rgb(253, 80, 0);
+padding: 20px;
+font-family: 'Odibee Sans', cursive;
+height: 100%;
+}
+
+
+.nav2{
+    position: fixed;
+    height: 30px;
+    background-color: white;
+    width: 100%; 
+    box-shadow: 0px 5px 10px rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
+    z-index: 1000;
+    
+}
+.nav2 a{
+    float: right;
+    padding-left:15px ;
+    padding-right: 15px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    color: black;
+    
+    margin-top:auto;
+    margin-bottom: auto;
+   font-size: 110%;
+    
+}
+.nav2 a:hover{
+    background-color: rgb(20, 21, 24);
+    color:white;
+    box-shadow: 0px 5px 10px  rgb(20, 21, 24);
+    text-shadow:1px 1px 0px rgb(253, 80, 0);
+}
+}
+
+

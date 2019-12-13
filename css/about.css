@@ -1,3 +1,5 @@
+/*laptop*/
+@media only screen and (min-width: 1200px) {
 html{
   scroll-behavior: smooth;
 }
@@ -359,3 +361,735 @@ html body{
   ::-webkit-scrollbar-thumb:hover {
     background:rgb(82, 82, 82) ; 
   }
+}
+
+/*tablet*/
+@media only screen and (max-width: 1199px) and (min-width: 800px) {
+  html{
+    scroll-behavior: smooth;
+  }
+  html body{
+      background-color:white;
+  }
+  .container {
+      
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      grid-auto-columns: 100px;
+      background-color: rgb(20, 21, 24);;
+      
+  }
+  .box {
+      
+      color: black;
+      border-bottom: 1px solid black;
+      font-size: 250%;
+      padding: 100px;
+      position:relative;
+     
+      } 
+  
+  .nav2{
+      position: fixed;
+      height: 30px;
+      background: rgb(255, 255, 255);
+      width: 100%; 
+      box-shadow: 0px 5px 10px rgb(255, 255, 255);
+      font-family: 'Staatliches', cursive;
+      z-index: 1000;
+      
+  }
+  .nav2 a{
+      float: right;
+      padding-left:15px ;
+      padding-right: 15px;
+      padding-top: 4px;
+      padding-bottom: 6px;
+      text-decoration: none;
+      color: black;
+      
+      margin-top:auto;
+      margin-bottom: auto;
+     font-size: 110%;
+      
+  }
+  .nav2 a:hover{
+      background-color: rgb(20, 21, 24);
+      color:white;
+      box-shadow: 0px 5px 10px rgb(20, 21, 24);
+      text-shadow:1px 1px 0px rgb(253, 80, 0);
+  }
+  .nav{
+      display:flex;
+      grid-column: 1 / 4;
+      grid-row: 1;
+      font-family: 'Odibee Sans', cursive;
+      background: rgb(20, 21, 24);
+      background-size: cover;
+      
+      height: 100vh;
+      font-size: 300%;
+      justify-content: center;
+      
+      position: relative;
+      align-items: center;
+  }
+  .nav p{
+      font-size: 400%;
+      color: white;
+      text-shadow: 5px 5px 0px rgb(253, 80, 0);
+  }
+  
+  /*animation*/
+  
+  .css-typing p {
+      border-right: .1em solid rgb(253, 80, 0) ;
+      font-family: 'Odibee Sans', cursive;
+      font-size: 400%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+      
+    }
+    .css-typing p{
+      width: 3.1em;
+      -webkit-animation: type 2s steps(40, end);
+      animation: type 2s steps(40, end);
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      padding: 0px;
+      margin: 0px;
+    }
+    
+    .css-typing p{
+      
+      opacity: 0;
+      -webkit-animation: type2 2s steps(40, end);
+      animation: type2 2s steps(40, end);
+      -webkit-animation-delay: 2s;
+      animation-delay: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      padding: 0px;
+      margin: 0px;
+    }
+    
+    .css-typing p{
+      
+      opacity: 0;
+      -webkit-animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+      animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    
+    @keyframes type {
+      0% {
+        
+        width: 0;
+      }
+      99.9% {
+        border-right: .02em solid rgb(253, 80, 0);
+      }
+      100% {
+        border: none;
+      }
+    }
+    
+    @-webkit-keyframes type {
+      0% {
+        width: 0;
+      }
+      99.9% {
+        border-right: .02em solid rgb(253, 80, 0);
+      }
+      100% {
+        border: none;
+      }
+    }
+    
+    @keyframes type2 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .02em solid rgb(253, 80, 0);
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+    }
+    
+    @-webkit-keyframes type2 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .02em solid rgb(253, 80, 0);
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+    }
+    
+    @keyframes type3 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    @-webkit-keyframes type3 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    @-webkit-keyframes blink {
+      50% {
+        border-color: tranparent;
+      }
+    }
+  
+  
+  
+  
+  .downarrow:hover{
+    filter: opacity(0.7)
+  }
+  
+  
+  
+  .nav h1{
+      padding-top: 90px;
+      font-size: 250%;
+      color: white;
+      text-shadow:5px 5px 5px rgb(160, 183, 233);
+  }
+  /* section for projects */
+  .project{
+      grid-column: 1 / 4;
+      grid-row: 2;
+      display: block;
+      background: rgb(34, 35, 41);
+      
+      text-align: center;
+      font-family: 'Righteous', cursive;
+      height: 100vh;
+      padding:0px;
+      border: transparent;
+  }
+  .project h2{
+      font-size: 200%;
+      color:white;
+      text-shadow: 5px 5px 0px rgb(253, 80, 0);
+      padding-top: 100px;
+  }
+  
+  .project .downarrow2{
+    justify-content: center;
+  }
+  
+  .project p {
+      color: white;
+      font-size: 150%;
+  }
+  .projlink{
+      padding: 3px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border: transparent 2px solid;
+      transition: .3s;
+  }
+  .projlink:hover{
+      border: 2px solid black;
+      transition: .3s;
+  }
+  
+  .res{
+      grid-column: 1 / 4;
+      grid-row: 3;
+      background-color: rgb(20, 21, 24);
+      
+      color: white;
+      text-align: center;
+      font-family: 'Righteous', cursive;
+      height: 100vh;
+  }
+  .res h2{
+      background: rgb(20, 21, 24);
+      padding-top: 100px;
+      font-size: 600%;
+      color:white;
+      text-shadow: 5px 5px 0px rgb(253, 80, 0);
+  }
+  .resume{
+      height: 1000px;
+      background-color: rgb(155, 155, 155);
+  }
+  .about{
+      grid-column: 1 / 4;
+      grid-row: 4;
+      height: 100vh;
+      text-align: center;
+      background: rgb(34, 35, 41);
+      
+  }
+  .about .slider{
+    width: 620px;
+    height: 620px;
+    background: violet;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-shadow: 5px 0px 5px rgb(253, 80, 0), -5px 0px 5px rgb(253, 80, 0);
+    animation: slide 20s infinite;
+  }
+  
+  @keyframes slide{
+    25%{
+      background: blue;
+      background-size: cover;
+    }
+    50%{
+      background: red;
+      background-size: cover;
+    }
+    75%{
+      background: green;
+      background-size: cover;
+    }
+    100%{
+      background: pink;
+      background-size: cover;
+    }
+    
+  }
+  .footer{
+      grid-column: 1 / 4;
+      grid-row: 5;
+      background-color: rgb(87, 87, 87);
+      text-align: center;
+  }
+  
+  /*scrollbar*/
+  
+  /* width */
+  ::-webkit-scrollbar {
+      width: 20px;
+      background-color: white;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: rgb(150, 150, 150); 
+      border: 1px solid black;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background:rgb(82, 82, 82) ; 
+    }
+  }
+
+
+  /*phone*/
+@media only screen and (max-width: 799px) {
+  html{
+    scroll-behavior: smooth;
+  }
+  html body{
+      background-color:white;
+  }
+  .container {
+      
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr ;
+      grid-auto-columns: 100px;
+      background-color: rgb(20, 21, 24);;
+      
+  }
+  .box {
+      
+      color: black;
+      border-bottom: 1px solid black;
+      font-size: 250%;
+      padding: 100px;
+      position:relative;
+     
+      } 
+  
+  .nav2{
+      position: fixed;
+      height: 30px;
+      background: rgb(255, 255, 255);
+      width: 100%; 
+      box-shadow: 0px 5px 10px rgb(255, 255, 255);
+      font-family: 'Staatliches', cursive;
+      z-index: 1000;
+      
+  }
+  .nav2 a{
+      float: right;
+      padding-left:15px ;
+      padding-right: 15px;
+      padding-top: 4px;
+      padding-bottom: 6px;
+      text-decoration: none;
+      color: black;
+      
+      margin-top:auto;
+      margin-bottom: auto;
+     font-size: 110%;
+      
+  }
+  .nav2 a:hover{
+      background-color: rgb(20, 21, 24);
+      color:white;
+      box-shadow: 0px 5px 10px rgb(20, 21, 24);
+      text-shadow:1px 1px 0px rgb(253, 80, 0);
+  }
+  .nav{
+      display:flex;
+      grid-column: 1 / 4;
+      grid-row: 1;
+      font-family: 'Odibee Sans', cursive;
+      background: rgb(20, 21, 24);
+      background-size: cover;
+      
+      height: 100vh;
+      font-size: 300%;
+      justify-content: center;
+      
+      position: relative;
+      align-items: center;
+  }
+  .nav p{
+      font-size: 400%;
+      color: white;
+      text-shadow: 5px 5px 0px rgb(253, 80, 0);
+  }
+  
+  /*animation*/
+  
+  .css-typing p {
+      border-right: .1em solid rgb(253, 80, 0) ;
+      font-family: 'Odibee Sans', cursive;
+      font-size: 400%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: center;
+      
+    }
+    .css-typing p{
+      width: 3.1em;
+      -webkit-animation: type 2s steps(40, end);
+      animation: type 2s steps(40, end);
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      padding: 0px;
+      margin: 0px;
+    }
+    
+    .css-typing p{
+      
+      opacity: 0;
+      -webkit-animation: type2 2s steps(40, end);
+      animation: type2 2s steps(40, end);
+      -webkit-animation-delay: 2s;
+      animation-delay: 2s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      padding: 0px;
+      margin: 0px;
+    }
+    
+    .css-typing p{
+      
+      opacity: 0;
+      -webkit-animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+      animation: type3 1s steps(20, end), blink .5s step-end infinite alternate;
+      -webkit-animation-delay: 1s;
+      animation-delay: 1s;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+      padding: 0px;
+      margin: 0px;
+    }
+  
+    
+    @keyframes type {
+      0% {
+        
+        width: 0;
+      }
+      99.9% {
+        border-right: .02em solid rgb(253, 80, 0);
+      }
+      100% {
+        border: none;
+      }
+    }
+    
+    @-webkit-keyframes type {
+      0% {
+        width: 0;
+      }
+      99.9% {
+        border-right: .02em solid rgb(253, 80, 0);
+      }
+      100% {
+        border: none;
+      }
+    }
+    
+    @keyframes type2 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .02em solid rgb(253, 80, 0);
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+    }
+    
+    @-webkit-keyframes type2 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      99.9% {
+        border-right: .02em solid rgb(253, 80, 0);
+      }
+      100% {
+        opacity: 1;
+        border: none;
+      }
+    }
+    
+    @keyframes type3 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    @-webkit-keyframes type3 {
+      0% {
+        width: 0;
+      }
+      1% {
+        opacity: 1;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    
+    @keyframes blink {
+      50% {
+        border-color: transparent;
+      }
+    }
+    @-webkit-keyframes blink {
+      50% {
+        border-color: tranparent;
+      }
+    }
+  
+  
+  
+  
+  .downarrow:hover{
+    filter: opacity(0.7)
+  }
+  
+  
+  
+  .nav h1{
+      padding-top: 90px;
+      font-size: 250%;
+      color: white;
+      text-shadow:5px 5px 5px rgb(160, 183, 233);
+  }
+  /* section for projects */
+  .project{
+      grid-column: 1 / 4;
+      grid-row: 2;
+      display: block;
+      background: rgb(34, 35, 41);
+      
+      text-align: center;
+      font-family: 'Righteous', cursive;
+      height: 100vh;
+      padding:0px;
+      border: transparent;
+  }
+  .project h2{
+      font-size: 200%;
+      color:white;
+      text-shadow: 5px 5px 0px rgb(253, 80, 0);
+      padding-top: 100px;
+  }
+  
+  .project .downarrow2{
+    justify-content: center;
+  }
+  
+  .project p {
+      color: white;
+      font-size: 150%;
+  }
+  .projlink{
+      padding: 3px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border: transparent 2px solid;
+      transition: .3s;
+  }
+  .projlink:hover{
+      border: 2px solid black;
+      transition: .3s;
+  }
+  
+  .res{
+      grid-column: 1 / 4;
+      grid-row: 3;
+      background-color: rgb(20, 21, 24);
+      
+      color: white;
+      text-align: center;
+      font-family: 'Righteous', cursive;
+      height: 100vh;
+  }
+  .res h2{
+      background: rgb(20, 21, 24);
+      padding-top: 100px;
+      font-size: 600%;
+      color:white;
+      text-shadow: 5px 5px 0px rgb(253, 80, 0);
+  }
+  .resume{
+      height: 1000px;
+      background-color: rgb(155, 155, 155);
+  }
+  .about{
+      grid-column: 1 / 4;
+      grid-row: 4;
+      height: 100vh;
+      text-align: center;
+      background: rgb(34, 35, 41);
+      
+  }
+  .about .slider{
+    width: 620px;
+    height: 620px;
+    background: violet;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    box-shadow: 5px 0px 5px rgb(253, 80, 0), -5px 0px 5px rgb(253, 80, 0);
+    animation: slide 20s infinite;
+  }
+  
+  @keyframes slide{
+    25%{
+      background: blue;
+      background-size: cover;
+    }
+    50%{
+      background: red;
+      background-size: cover;
+    }
+    75%{
+      background: green;
+      background-size: cover;
+    }
+    100%{
+      background: pink;
+      background-size: cover;
+    }
+    
+  }
+  .footer{
+      grid-column: 1 / 4;
+      grid-row: 5;
+      background-color: rgb(87, 87, 87);
+      text-align: center;
+  }
+  
+  /*scrollbar*/
+  
+  /* width */
+  ::-webkit-scrollbar {
+      width: 20px;
+      background-color: white;
+    }
+    
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      
+    }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: rgb(150, 150, 150); 
+      border: 1px solid black;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background:rgb(82, 82, 82) ; 
+    }
+}
