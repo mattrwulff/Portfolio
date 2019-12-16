@@ -239,8 +239,39 @@ h1.effect-1 {
     
   
 }
+.skills{
+    border-collapse: collapse;
+    margin-top: 30px;
+    color: white;
 }
-
+.skills table{
+    background: rgb(34, 35, 41);
+    width: 100%;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: 100%;
+}
+.skills table tr {
+    border: solid 1px white;
+    
+}
+.skills table tr th, td{
+    justify-content: center;
+    vertical-align: middle;
+    padding: 3rem;
+    border: 1px rgb(253, 80, 0) solid;
+}
+.skills table tr td{
+    justify-content: center;
+    vertical-align: middle;
+    padding: 3rem;
+    border: 1px rgb(253, 80, 0) solid;
+}
+.track{
+    width: 50px;
+    height: 50px;
+}
+}
 /*tablet*/
 @media only screen and (max-width: 1199px) and (min-width: 800px) {
 html body{
@@ -310,7 +341,7 @@ html body{
     position: absolute;
     display: block;
     top: 230px;
-    width:300px;
+    width:600px;
      height:500px;
 }
 
@@ -550,9 +581,9 @@ h1.effect-1 {
     .nav > img{
         position: absolute;
         display: block;
-        top: 230px;
-        width:300px;
-         height:500px;
+        top: 430px;
+        width:350px;
+         height:300px;
     }
     
     .nav h1{
