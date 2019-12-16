@@ -583,10 +583,12 @@ html body{
   
   
   
-  .downarrow:hover{
-    filter: opacity(0.7)
+  .downarrow{
+    opacity: 0;
   }
-  
+  .downarrow2{
+    opacity: 0;
+  }
   
   
   .nav h1{
@@ -809,9 +811,10 @@ html body{
   /*animation*/
   
   .css-typing p {
+    text-align: center;
       border-right: .1em solid rgb(253, 80, 0) ;
       font-family: 'Odibee Sans', cursive;
-      font-size: 400%;
+      font-size: 250%;
       white-space: nowrap;
       overflow: hidden;
       text-align: center;
@@ -949,10 +952,12 @@ html body{
   
   
   
-  .downarrow:hover{
-    filter: opacity(0.7)
-  }
-  
+    .downarrow{
+      opacity: 0;
+    }
+    .downarrow2{
+      opacity: 0;
+    }
   
   
   .nav h1{
