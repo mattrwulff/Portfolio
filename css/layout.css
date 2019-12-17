@@ -84,7 +84,7 @@ html body{
     grid-column: 1 / 4;
     grid-row: 2;
     display: block;
-    
+    height: 100vh;
     background-color: rgb(20, 21, 24) ;
     text-align: center;
     font-family: 'Righteous', cursive;
@@ -94,7 +94,7 @@ html body{
     display: block;
     top: 230px;
     width:300px;
-     height:500px;
+     height:100vh;
     }
 .project h1{
     font-size: 200%;
@@ -241,14 +241,18 @@ h1.effect-1 {
 }
 .skills{
     border-collapse: collapse;
-    margin-top: 30px;
+    background: black;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: white;
+    height: 100vh;
 }
 .skills table{
     background: rgb(34, 35, 41);
-    width: 100%;
+    
     border-collapse: collapse;
-    margin-right: auto;
+    
     margin-left: 100%;
 }
 .skills table tr {
@@ -343,6 +347,7 @@ html body{
     top: 230px;
     width:600px;
      height:500px;
+     opacity: 0.8;
 }
 
 .nav h1{
@@ -356,7 +361,7 @@ html body{
     grid-column: 1 / 4;
     grid-row: 2;
     display: block;
-    
+    height: 100vh;
     background-color: rgb(20, 21, 24) ;
     text-align: center;
     font-family: 'Righteous', cursive;
@@ -524,7 +529,7 @@ h1.effect-1 {
         grid-template-columns: 1fr 1fr 1fr ;
         grid-auto-columns: 100px;
         background-color: rgb(20, 21, 24);
-        
+        height: 100vh;
     }
     .box {
         
@@ -534,36 +539,36 @@ h1.effect-1 {
         padding: 100px
         } 
     
-    .nav2{
-        position: fixed;
-        height: 30px;
-        background: rgb(255, 255, 255);
-        width: 100%; 
-        box-shadow: 0px 5px 10px rgb(255, 255, 255);
-        font-family: 'Staatliches', cursive;
-        z-index: 1000;
-        
-    }
-    .nav2 a{
-        float: right;
-        padding-left:15px ;
-        padding-right: 15px;
-        padding-top: 4px;
-        padding-bottom: 6px;
-        text-decoration: none;
-        color: black;
-        
-        margin-top:auto;
-        margin-bottom: auto;
-       font-size: 110%;
-        
-    }
-    .nav2 a:hover{
-        background-color: rgb(20, 21, 24);
-        color:white;
-        box-shadow: 0px 5px 10px rgb(20, 21, 24);
-        text-shadow:1px 1px 0px rgb(253, 80, 0);
-    }
+        .nav2{
+            position: fixed;
+            height: 80px;
+            background: rgb(255, 255, 255);
+            width: 100%; 
+            box-shadow: 0px 5px 10px rgb(255, 255, 255);
+            font-family: 'Staatliches', cursive;
+            z-index: 1000;
+            
+        }
+        .nav2 a{
+            float: right;
+            padding-left:15px ;
+            padding-right: 15px;
+            padding-top: 28px;
+            padding-bottom: 28px;
+            text-decoration: none;
+            color: black;
+            
+            margin-top:auto;
+            margin-bottom: auto;
+           font-size: 130%;
+            
+        }
+        .nav2 a:hover{
+            background-color: rgb(20, 21, 24);
+            color:white;
+            box-shadow: 0px 5px 10px rgb(20, 21, 24);
+            text-shadow:1px 1px 0px rgb(253, 80, 0);
+        }
     .nav{
         display:flex;
         grid-column: 1 / 4;
@@ -584,6 +589,7 @@ h1.effect-1 {
         top: 430px;
         width:350px;
          height:300px;
+         opacity: 0.8;
     }
     
     .nav h1{
@@ -668,7 +674,8 @@ h1.effect-1 {
     
     .table1{
         margin-left: auto;
-        margin-right: auto
+        margin-right: auto;
+        
     }
     .about{
         grid-column: 1 / 4;
